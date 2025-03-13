@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Rock Paper Scissors</h1>
+        <div class="choices">
+            <button onclick="playGame('rock')">👊 Rock</button>
+            <button onclick="playGame('paper')">🖐️ Paper</button>
+            <button onclick="playGame('scissors')">✌️ Scissors</button>
+        </div>
+        <div class="result-container">
+            <div class="player">
+                <h2>You</h2>
+                <h1 id="player-choice">❔</h1>
+            </div>
+            <div class="computer">
+                <h2>Computer</h2>
+                <h1 id="computer-choice">❔</h1>
+            </div>
+        </div>
+        <br>
+        <div style="height: 100px;">
+            <h1 id="loading" style="display: none;margin:0">🔃</h1>
+            <p id="result"></p>
+        </div>
+    </div>
+    <center class="footer"><a href="https://mo-sayed.site" target="_blank">MSA</a></center>
+    <script src="main.js"></script>
+</body>
+</html>
