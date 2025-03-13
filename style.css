@@ -15,6 +15,7 @@ body {
 }
 .choices {
     margin: 20px 0;
+    display: flex;
 }
 .choices button {
     font-size: 20px;
@@ -90,5 +91,8 @@ body {
     .result-container {
         display: flex;
         flex-wrap: wrap;
+    }
+    body{
+        margin: 6px;
     }
 }
