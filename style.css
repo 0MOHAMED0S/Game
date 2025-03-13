@@ -95,4 +95,8 @@ body {
     body{
         margin: 15px;
     }
+    .container{
+        border: rgb(255, 0, 234) solid 10px;
+
+    }
 }
